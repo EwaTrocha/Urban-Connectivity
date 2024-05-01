@@ -1,5 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
+st.page_link("https://github.com/EwaTrocha", label=':blue[GitHub]')
+st.page_link("https://www.linkedin.com/in/ewa-trocha-arch-data/", label=':blue[LinkedIn]')
 
 st.markdown ('## Urban Connectivity: Analyzing Housing Growth and Accessibility to Public Transportation in Sweden')
 st.markdown('The goal of this analysis is to examine the interplay between **urban development** dynamics, proximity to **public transportation** and **income**.')
