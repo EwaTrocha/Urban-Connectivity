@@ -37,35 +37,35 @@ st.markdown('### Urban Advantage: Access to Public Transportation')
 multi_1 = '''Larger municipalities housing major cities such as Stockholm, Gothenburg, Malmö, and Uppsala demonstrate superior access to public transportation compared to smaller counties. Notably, this advantage remained almost unchanged from 2014 to 2021.'''
 st.markdown(multi_1)
 
-p = open("c:/Users/Lenovo/Documents/Data_Analytics/M4_1_Python/Project/Streamlit/fig1.html")
+p = open("fig1.html")
 components.html(p.read(), height=800)
 
 st.markdown('### Overall Public Transportation Access')
 multi_2 = '''The median access to public transportation across all municipalities exhibited an upward trend over the years, indicating an overall improvement in connectivity.'''
 st.markdown(multi_2)
 
-p = open("c:/Users/Lenovo/Documents/Data_Analytics/M4_1_Python/Project/Streamlit/fig2.html")
+p = open("fig2.html")
 components.html(p.read(), height=500)
 
 st.markdown('### Cities gives more equal opportunities')
 multi_3 = '''Despite variations in income levels, urban centers demonstrate a propensity to offer better connectivity to public transportation. This suggests that cities play a pivotal role in providing equal opportunities for transportation access.'''
 st.markdown(multi_3)
 
-p = open("c:/Users/Lenovo/Documents/Data_Analytics/M4_1_Python/Project/Streamlit/fig3.html")
+p = open("fig3.html")
 components.html(p.read(), height=500)
 
 st.markdown('### Change was not always positive')
 multi_4 = '''While most municipalities witnessed a positive change in connectivity from 2014 to 2021, some areas experienced a decline. This underscores the dynamic nature of transportation infrastructure development.'''
 st.markdown(multi_4)
 
-p = open("c:/Users/Lenovo/Documents/Data_Analytics/M4_1_Python/Project/Streamlit/fig4.html")
+p = open("fig4.html")
 components.html(p.read(), height=500)
 
 st.markdown('### Growing Reach: Household Connectivity')
 multi_5 = '''The overall growth in connectivity can be attributed to the construction of new apartments annually. Interestingly, the only segment showing a decrease in connectivity is households without access, indicating a positive shift in public transportation accessibility.'''
 st.markdown(multi_5)
 
-p = open("c:/Users/Lenovo/Documents/Data_Analytics/M4_1_Python/Project/Streamlit/fig5.html")
+p = open("fig5.html")
 components.html(p.read(), height=500)
 
 
